@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/custom.css"> 
+  <style>
+  /* #sortable { 
+      list-style-type: none;
+       margin: 0;
+        padding: 0; 
+        width: 60%; 
+    }
+  #sortable li { 
+      margin: 0 3px 3px 3px; 
+      padding: 0.4em; 
+      padding-left: 1.5em; 
+      font-size: 1.4em; 
+      height: 18px;
+    } */
+  </style>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jqueryui.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="index.js"></script>
+</head>
+<body>
+<div id="sidebar">
+  <div class = "toggle-btn">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  <div class = "topic">
+  <input type = "text" placeholder = "Topic" class = "topic" id = "topic0"> <button class = "minimizeT"><img src = "icons/next.svg" width = "30" height = "30" id = "t0"></button>
+  </div>
+  <button class = "plusButtonT"><img src = "icons/plus.svg" width = "30" height = "30" id = "newSubTopic"></button>
+  
+</div>
+<div id ="content"> 
+<!-- <div id = "entries"> 
+  <div id = "entry0" class = "entry">
+    <input type = "text" placeholder = "Question" class = "question">
+    <button class = "plusButton"><img src = "icons/plus.svg" width = "30" height = "30" id = "newAnswer"></button>
+    <button class = "minimize"><img src = "icons/up-arrow.svg" width = "30" height = "30" id = "hideAnswer"></button>
+  
+  </div>
+</div> -->
+
+<button class = "plusButton" style = "margin-left : 27%;"><img src = "icons/plus.svg" width = "30" height = "30" id = "newEntry"></button>
+<button class = "saveButton" style = "margin-left : 5%;"><img src = "icons/tick.svg" width = "30px" height = "30px" id = "saveButton"></button>
+<p class = "dropFileInfo" id = "dropFile"> Start creating new notes or load previous ones</p>
+</div>
+</body>
+</html>

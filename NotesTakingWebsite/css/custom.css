@@ -1,0 +1,168 @@
+body {
+    background-color : lightgrey;
+    display : flex;
+    align-items : stretch;
+    
+}
+.entry {
+    /* border : 10px dotted black;
+    border-radius : 20px;  */
+    margin-top : 20px; 
+    margin-left : 20%;
+    margin-right : 10%;  
+    margin-bottom : 5%; 
+    padding : 80px;  
+}
+
+input {
+    font-weight : bold;
+    font-family : cursive;
+}
+
+.question {
+    outline : none; 
+    border : none; 
+    width : 100%; 
+    background-color : lightgrey;
+}
+
+.answer {
+    outline : none; 
+    border : none;
+    width : 100%;
+    background-color : lightgrey;
+}
+.plusButton {
+    background-color : lightgrey;
+    padding : 20px 0px 0px 0px;
+    outline : none;
+    border : none;
+}
+.minimize {
+    background-color : lightgrey;
+    padding : 20px 0px 0px 0px; 
+    outline : none;
+    border : none;
+    margin-left : 20px;
+}
+.minimize:focus {
+    outline : none;
+    border : none;
+}
+
+.plusButton:focus {
+    outline : none;
+    border : none;
+}
+
+#newEntry:hover {
+    width : 50px;
+    height : 50px; 
+    
+}
+
+.saveButton:focus {
+    outline : none;
+    border : none;
+}
+
+.saveButton {
+    background-color : lightgray;
+    padding : 20px 0px 0px 0px;
+    outline : none;
+    border : none;
+    
+}
+
+.plusButtonT:focus {
+    outline : none;
+    border : none;
+}
+.minimizeT:focus {
+    outline : none;
+    border : none;
+}
+#saveButton:hover {
+    width : 50px;
+    height : 50px; 
+}
+#saveButton:focus {
+    outline : none;
+    border : none;
+}
+
+.dropFileInfo {
+    font-weight : bold; 
+    font-family : cursive; 
+    font-size : 200%;
+    margin-left : 35%;
+    margin-top : 10%;
+    margin-right : 20%;
+    padding : 10%;
+    color : grey;
+    background-color : lightgray;
+}
+.is-dragover {
+    border : 6px solid black;
+    color : black;
+    background-color : white;
+}
+
+#sidebar {
+    position : fixed;
+    width : 300px;
+    height : 100%;
+    background-color : white;
+    min-height: calc(100vh - 2em);
+    left : -300px;
+    transition : all 0.3s linear;
+}
+
+#content {
+    flex : auto;
+}
+
+
+
+#sidebar .toggle-btn {
+    position : absolute;
+    left : 330px;
+    top : 10px;
+}
+#sidebar .toggle-btn span {
+    display : block;
+    width : 30px;
+    height : 5px;
+    background : black;
+    margin-top : 3px; 
+}
+
+.topic {
+    outline : none; 
+    border : none; 
+    width : 80%; 
+    padding : 20px;
+    background-color : white;
+}
+
+.plusButtonT {
+    background-color : white;
+    padding : 20px 0px 0px 10px;
+    outline : none;
+    border : none;
+}
+
+.minimizeT {
+    background-color : white;
+    padding : 20px 0px 0px 10px;
+    outline : none;
+    border : none;
+}
+
+#newEntry {
+    padding-left : 10px;
+}
+
+#saveButton {
+    padding-left : 10px;
+}
